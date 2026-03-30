@@ -1,4 +1,4 @@
 (library
  (name ppx_var_name_test)
  (preprocess
-  (pps ppx_jane)))
+  (pps ppx_jane -compare-require-explicit-locality)))
